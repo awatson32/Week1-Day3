@@ -1,22 +1,22 @@
-.nav ul {
-  list-style-type: none;
-  margin: 0px;
+.navbar-fixed-top {
   background-color: #53878d;
   position: fixed;
   top: 0;
   width: 100%;
 }
-.nav li {
-  display: inline-block;
-  padding: 14px 16px;
+.navbar-fixed-top .container ul {
+  list-style-type: none;
 }
-.nav li a {
-  color: white;
-  font-family: sans-serif;
-  text-decoration: none;
+.navbar-fixed-top .container li {
+  display: inline-block;
+  padding: 10px;
   text-align: center;
 }
-.important-block h1 {
+.navbar-fixed-top .container a {
+  color: white;
+  text-decoration: none;
+}
+.container h1 {
   padding: 12px;
   text-align: center;
   font-family: sans-serif;
@@ -26,4 +26,10 @@
 .footer li a {
   display: inline-block;
   text-decoration: none;
+}
+body {
+  padding-top: 70px;
+}
+.name {
+  text-align: center;
 }
