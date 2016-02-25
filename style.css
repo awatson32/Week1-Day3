@@ -9,12 +9,16 @@
 }
 .navbar-fixed-top .container li {
   display: inline-block;
-  padding: 10px;
+  padding: 10px 12px;
   text-align: center;
 }
 .navbar-fixed-top .container a {
   color: white;
   text-decoration: none;
+}
+.container p {
+  margin: 0 auto;
+  padding: 20px;
 }
 .container h1 {
   padding: 12px;
@@ -24,7 +28,8 @@
   border-top: 2px solid #afb0b1;
 }
 .container form {
-  margin: 10px auto;
+  margin: 20px auto;
+  padding: 40px;
   width: 75%;
   background-color: #91bac5;
   -moz-border-radius: 5px;
@@ -34,19 +39,21 @@
 .container .form-group {
   width: 50%;
   margin: 0 auto;
+  padding: 10px;
   color: white;
 }
-.container .container {
-  text-align: center;
+.container .btn {
+  width: 100%;
 }
 .footer {
-  border-top: 4px solid #53878d;
+  border-top: 3px solid #53878d;
   text-align: center;
+  width: 68%;
+  margin: auto;
 }
 .footer li {
   display: inline-block;
   text-decoration: none;
-  padding: 20px;
 }
 body {
   padding-top: 80px;
