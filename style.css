@@ -1,24 +1,29 @@
-.navbar-fixed-top {
+.navbar-fixed-top .navbar-collapse {
   background-color: #53878d;
   text-align: center;
   top: 0;
   width: 100%;
+  /*.container {
+        
+        ul {
+            list-style-type: none;
+        }
+        
+        li {
+            display: inline-block;
+            padding: 10px 12px;
+        }
+
+    }*/
 }
-.navbar-fixed-top .container ul {
-  list-style-type: none;
-}
-.navbar-fixed-top .container li {
-  display: inline-block;
-  padding: 10px 12px;
-}
-.navbar-fixed-top .container a {
+.navbar-fixed-top .navbar-collapse li a {
   color: white;
   text-decoration: none;
 }
-.container {
+.important-block .container {
   width: 75%;
 }
-.container h1 {
+.important-block .container h1 {
   padding: 12px;
   text-align: center;
   font-family: sans-serif;
