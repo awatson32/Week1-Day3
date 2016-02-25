@@ -18,38 +18,33 @@
                 <li><a href="#about-me">About</a></li>
                 <li><a href="#technical-skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
-                <li><a href="#">Resume</a></li>
+                <li><a href="#experience">Resume</a></li>
                 <li><a href="#contact-me">Contact</a></li>
             </ul>
         </div>
     </nav>
 
     <div class="name">
-        <h1>Audrey Watson</h1>
+        <h1>Audrey Watson</h1>  
         <p>Front End Engineer</p>
     </div>
 
     <div class="important-block">                       
-            <div class="about-me">
+            <div class="about-me" id="about-me">
                 <div class="container">                
-                    <h1 id="about-me">About Me</h1>
-                    <div class="row">
-                        <div class="col-md-6">           
-                            <p>
-                                Highly-skilled application programmer bringing more than 2 years in software design, development and integration. Advanced
-                                knowledge of MicroStrategy and other Business Intelligence tools. Knowledgeable and skilled in data collection,
-                                analysis and management. Works well under pressure and consistently meets deadlines and targets while delivering
-                                high quality work.
-                            </p>
-                        </div>
-                        <div class="col-md-6"></div>
-                    </div>
+                    <h1>About Me</h1>          
+                    <p>
+                        Highly-skilled application programmer bringing more than 2 years in software design, development and integration. Advanced
+                        knowledge of MicroStrategy and other Business Intelligence tools. Knowledgeable and skilled in data collection,
+                        analysis and management. Works well under pressure and consistently meets deadlines and targets while delivering
+                        high quality work.
+                    </p>
                 </div>
             </div>
 
-            <div class="technical-skills">
+            <div id="technical-skills" class="technical-skills">
                 <div class="container">
-                    <h1 id="technical-skills">Technical Skills</h1>
+                    <h1>Technical Skills</h1>
                     <div class="row">
                         <div class="col-md-6">
                             <ul>
@@ -83,7 +78,7 @@
 
             <div class="experience">
                 <div class="container">
-                    <h1 id="experience">Experince</h1>             
+                    <h1 id="experience">Experience</h1>             
                     <div class="row">
                         <div class="col-md-6">
                             <h5>February 2014 - current BBVA Compass | Application Programmer Analyst | Birmingham, AL</h5>
@@ -140,13 +135,23 @@
                 <div class="container">
                     <h1 id="contact-me">Contact Me</h1>
 
-                    <form>
-                        <label for="name">Name</label>
-                        <input type="text" id="name" name="name">
-                        <label for="email">Email</label>
-                        <input type="text" id="email" name="email">
-                        <label for="message">Message</label>
-                        <input type="text" id="message" name="message">
+                    <form role="form">
+                        <div class="container">
+                            <div class="form-group">
+                                <label for="name">Name:</label>
+                                <input type="text" class="form-control" id="name" placeholder="Name">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email:</label>
+                                <input type="email" class="form-control" id="email" placeholder="Email">
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message:</label>
+                                <textarea class="form-control" rows="5" id="message">
+                                </textarea>
+                            </div>
+                            <button type="submit" class="btn btn-default">Submit</button>
+                        </div>                     
                     </form>
                 </div>
             </div>

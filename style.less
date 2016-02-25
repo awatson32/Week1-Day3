@@ -1,7 +1,9 @@
+@import 'variables.less';
+
 .navbar-fixed-top {
     
     background-color: #53878d;
-    position: fixed;
+    text-align: center;
     top: 0;
     width: 100%;
     
@@ -36,21 +38,44 @@
         border-bottom: 2px solid #53878d;
         border-top: 2px solid #afb0b1;
     }
+    
+    form {
+        margin: 10px auto;
+        width: 75%;
+        background-color: #91bac5;
+        .border-radius;
+    }
+    .form-group { 
+        width: 50%;
+        margin: 0 auto;
+        color: white;
+    }
+    
+    .container {
+        text-align: center;
+    }
 }
 
 .footer {
+    border-top: 4px solid #53878d;
+    text-align: center;
     
-    li a {
+    
+    li {
         display: inline-block;
         text-decoration: none;
-        
+        padding: 20px;       
     }
 }
 
 body {
-    padding-top: 70px;
+    padding-top: 80px;
 }
 
 .name {
+    text-align: center;
+}
+
+.important-block {
     text-align: center;
 }
